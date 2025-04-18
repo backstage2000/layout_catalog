@@ -1,4 +1,4 @@
-.mian {
+.main {
   margin-bottom: 72px;
   display: flex;
   justify-content: center;
@@ -76,7 +76,7 @@
   }
 
   &__buy {
-    color: $bacground-color;
+    color: $background-color;
     font-size: 14px;
     line-height: 16px;
     font-weight: 700;
@@ -100,7 +100,7 @@
     &:hover {
       border: 1px solid $hover-color;
 
-      @include hover(background-color, $bacground-color);
+      @include hover(background-color, $background-color);
 
       .card__buy {
         color: $hover-color;
